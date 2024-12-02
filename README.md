@@ -57,6 +57,7 @@
                             </nav>
                         @endif
                         <a href="" class="btn btn-primary">Inicio</a>
+                        <a class="nav-link" href="{{ route('autores.index') }}">Autor</a> 
                     </header>
 
                     <main class="mt-6">
