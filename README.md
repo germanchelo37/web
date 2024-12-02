@@ -56,6 +56,7 @@
                                 @endauth
                             </nav>
                         @endif
+                        <a href="{{ route('/') }}" class="btn btn-primary">Inicio</a>
                     </header>
 
                     <main class="mt-6">
@@ -173,6 +174,5 @@
                 </div>
             </div>
         </div>
-       <a href="{{ route('welcome') }}" class="btn btn-primary">Ir a Welcome</a>
     </body>
 </html>
