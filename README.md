@@ -173,6 +173,6 @@
                 </div>
             </div>
         </div>
-       [Iniciar sesión](/) 
+       <a href="{{ route('welcome') }}" class="btn btn-primary">Ir a Welcome</a>
     </body>
 </html>
